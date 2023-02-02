@@ -1,3 +1,10 @@
+테라폼으로 생성되는 자원
+- EKS 클러스터
+- EKS 노드그룹
+- EKS 관련 IAM
+- EKS 관련 보안그룹
+
+
 VPC 생성 테라폼 코드를 포함하지 않아, 아래 파일에 기존 VPC ID 및 Subnet ID 적용해야함
 eks-cluster.tf , eks-nodegroup.tf , security-group.tf
 
